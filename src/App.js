@@ -1,5 +1,5 @@
 import React from "react";
-import { Buttons, Home } from "./pages/ts";
+import { Buttons, Home, Header } from "./pages/ts";
 import { Switch, Route } from "react-router-dom";
 import "./styles/app.css";
 function App() {
@@ -11,6 +11,9 @@ function App() {
         </Route>
         <Route path="/buttons">
           <Buttons />
+        </Route>
+        <Route path="/header">
+          <Header />
         </Route>
       </Switch>
     </div>

@@ -11,8 +11,8 @@ export function ButtonContainer() {
       <Button
         colorTheme="orange"
         fontWeight="700"
-        uppercase={true}
-        boxShadow={true}
+        uppercase
+        boxShadow
         transition="0.5s"
         increaseOnHover="1.2"
         size="1.1"

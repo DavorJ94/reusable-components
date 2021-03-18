@@ -1,10 +1,6 @@
 import React from "react";
 import { ButtonContainer } from "../Containers/Buttons";
-import {
-  LeftWindowContainer,
-  WholeWindowContainer,
-  Button,
-} from "../Components";
+import { LeftWindowContainer, WholeWindowContainer } from "../Components";
 
 export default function Buttons() {
   return (
@@ -20,7 +16,7 @@ export default function Buttons() {
 
 
 
-<Button colorTheme="orange" fontWeight="700" uppercase={true} boxShadow={true} transition="0.5s" increaseOnHover="1.2" size="1.1" textColor="white">I am orange</Button>
+<Button colorTheme="orange" fontWeight="700" uppercase boxShadow transition="0.5s" increaseOnHover="1.2" size="1.1" textColor="white">I am orange</Button>
         `}
         </LeftWindowContainer>
         <ButtonContainer />

@@ -14,6 +14,9 @@ export default function Home() {
         <Link to="/buttons" style={{ textDecoration: "none" }}>
           <div className="link-button">Buttons</div>
         </Link>
+        <Link to="/header" style={{ textDecoration: "none" }}>
+          <div className="link-button">Header</div>
+        </Link>
       </div>
     </div>
   );

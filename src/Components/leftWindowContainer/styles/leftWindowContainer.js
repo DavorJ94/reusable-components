@@ -21,5 +21,8 @@ export const Container = styled.pre`
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
   max-width: 80%;
+  text-align: left;
+
+
   }
 `;
