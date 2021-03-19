@@ -40,8 +40,8 @@ export const LinkContainer = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 100%;
   color: ${({ color }) => (color ? color : "white")};
+  min-height: ${({ minHeight }) => (minHeight ? minHeight : "inherit")};
 `;
 
 export const Link = styled.div`

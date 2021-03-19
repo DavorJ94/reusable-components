@@ -1,5 +1,5 @@
 import React from "react";
-import { Buttons, Home, Header } from "./pages/ts";
+import { Buttons, Home, Header, Jumbotron } from "./pages/ts";
 import { Switch, Route } from "react-router-dom";
 import "./styles/app.css";
 function App() {
@@ -14,6 +14,9 @@ function App() {
         </Route>
         <Route path="/header">
           <Header />
+        </Route>
+        <Route path="/jumbotron">
+          <Jumbotron />
         </Route>
       </Switch>
     </div>

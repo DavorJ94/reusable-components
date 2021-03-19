@@ -8,5 +8,6 @@ export const Container = styled.div`
   align-items: center;
   height: 100%;
   min-height: 60vh;
+  row-gap: 1em;
   }
 `;

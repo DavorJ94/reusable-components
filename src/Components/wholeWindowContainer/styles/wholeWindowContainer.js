@@ -6,12 +6,11 @@ export const Container = styled.div`
   max-width: 90%;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
     height: auto;
-  }
   }
 `;

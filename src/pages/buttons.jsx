@@ -24,4 +24,3 @@ export default function Buttons() {
     </>
   );
 }
-// style={{ marginLeft: "5%", display: "inline-block" }}

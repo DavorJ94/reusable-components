@@ -17,6 +17,9 @@ export default function Home() {
         <Link to="/header" style={{ textDecoration: "none" }}>
           <div className="link-button">Header</div>
         </Link>
+        <Link to="/jumbotron" style={{ textDecoration: "none" }}>
+          <div className="link-button">Jumbotron</div>
+        </Link>
       </div>
     </div>
   );
