@@ -11,13 +11,22 @@ export default function Home() {
         Note: I just started this list, it is still pretty short
       </p>
       <div className="link-list">
-        <Link to="/buttons" style={{ textDecoration: "none" }}>
+        <Link
+          to="/reusable-components-react/buttons"
+          style={{ textDecoration: "none" }}
+        >
           <div className="link-button">Buttons</div>
         </Link>
-        <Link to="/header" style={{ textDecoration: "none" }}>
+        <Link
+          to="/reusable-components-react/header"
+          style={{ textDecoration: "none" }}
+        >
           <div className="link-button">Header</div>
         </Link>
-        <Link to="/jumbotron" style={{ textDecoration: "none" }}>
+        <Link
+          to="/reusable-components-react/jumbotron"
+          style={{ textDecoration: "none" }}
+        >
           <div className="link-button">Jumbotron</div>
         </Link>
       </div>
