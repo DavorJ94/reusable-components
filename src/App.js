@@ -6,16 +6,16 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/reusable-components-react/">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/reusable-components-react/buttons">
+        <Route path="/buttons">
           <Buttons />
         </Route>
-        <Route path="/reusable-components-react/header">
+        <Route path="/header">
           <Header />
         </Route>
-        <Route path="/reusable-components-react/jumbotron">
+        <Route path="/jumbotron">
           <Jumbotron />
         </Route>
       </Switch>

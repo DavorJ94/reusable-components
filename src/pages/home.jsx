@@ -12,19 +12,19 @@ export default function Home() {
       </p>
       <div className="link-list">
         <Link
-          to="/reusable-components-react/buttons"
+          to="/reusable-components/buttons"
           style={{ textDecoration: "none" }}
         >
           <div className="link-button">Buttons</div>
         </Link>
         <Link
-          to="/reusable-components-react/header"
+          to="/reusable-components/header"
           style={{ textDecoration: "none" }}
         >
           <div className="link-button">Header</div>
         </Link>
         <Link
-          to="/reusable-components-react/jumbotron"
+          to="/reusable-components/jumbotron"
           style={{ textDecoration: "none" }}
         >
           <div className="link-button">Jumbotron</div>
