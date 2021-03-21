@@ -29,6 +29,12 @@ export default function Home() {
         >
           <div className="link-button">Jumbotron</div>
         </Link>
+        <Link
+          to="/reusable-components/spinners"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="link-button">Spinners</div>
+        </Link>
       </div>
     </div>
   );

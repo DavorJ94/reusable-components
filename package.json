@@ -2,13 +2,13 @@
   "name": "reusable-components",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://davorj94.github.io/reusable-components",
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "styled-components": "^5.2.1",
-    "homepage": "https://davorj94.github.io/reusable-components"
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "predeploy": "npm run build",
